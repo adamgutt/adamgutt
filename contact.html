@@ -40,14 +40,14 @@
   </header>
 
   <form action="" method="post" id="contact-form">
-    <label class="standard-label" for="contact-email">E-mails: </label>
+    <label class="standard-label" for="contact-email">E-mail: </label>
     <input type="email" id="contact-email" required>
 
-    <label class="standard-label">Telephone: </label>
-    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+    <label class="standard-label" for="contact-telephone">Telephone: </label>
+    <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
 
-    <label class="standard-label">Message: </label>
-    <textarea maxlength="240" required></textarea>
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea maxlength="240" id="contact-message" required></textarea>
 
     <input type="submit" value="Send message">
   </form>
@@ -70,11 +70,17 @@
 
 <!-- Footer with links to social media profiles -->
 <footer class="page-footer">
-  <p>Find me on</p>
+  <p>Find me ons</p>
   <div class="social-media">
-    <img src="img/github1.svg" alt="Github">
-    <img src="img/twitter1.svg" alt="Twitter">
-    <img src="img/linkedin1.svg" alt="LinkedIn">
+    <a href="https://github.com/adamgutt" target="_blank">
+      <img src="img/github1.svg" alt="Github">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="img/twitter1.svg" alt="Twitter">
+    </a>
+    <a href="https://www.linkedin.com/in/adam-guttman-52492418a/" target="_blank">
+      <img src="img/linkedin1.svg" alt="LinkedIn">
+    </a>
   </div>
 </footer>
 <script src="js/tota11y.min.js"></script>
