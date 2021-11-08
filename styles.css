@@ -116,6 +116,8 @@ a:active {
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 
 .profile {
