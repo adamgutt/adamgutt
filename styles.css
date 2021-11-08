@@ -112,11 +112,7 @@ a:active {
 }
 
 .page-footer {
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
 
