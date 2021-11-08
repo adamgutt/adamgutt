@@ -112,6 +112,9 @@ a:active {
 }
 
 .page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   clear: both;
   display: flex;
   flex-direction: column;
