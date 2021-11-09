@@ -116,8 +116,6 @@ a:active {
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: absolute;
-  bottom: 0;
 }
 
 .profile {
@@ -270,7 +268,19 @@ a:active {
 .about-myself {
   list-style-type: none;
 }
-.experience {
-  margin-left: auto;
-  margin-right: auto;
+.fullpage{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.profile{
+  flex-grow: 1;
+}
+.fullcontact{
+  flex-grow: 1;
+}
+.fullwork{
+  flex-grow: 1;
 }
