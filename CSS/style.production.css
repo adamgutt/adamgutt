@@ -120,7 +120,7 @@ a:active {
 
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 200px;
   margin-right: 40px;
   border-radius: 50%;
 }
@@ -145,10 +145,6 @@ a:active {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.checkoutcode{
-  color: var(--navcolora);
 }
 
 .page-header {
