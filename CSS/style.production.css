@@ -147,6 +147,10 @@ a:active {
           box-sizing: border-box;
 }
 
+.checkoutcode{
+  color: var(--navcolora);
+}
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -375,4 +379,7 @@ a:active {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+.seeon {
+  color: var(--dark-grey);
 }
