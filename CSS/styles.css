@@ -289,3 +289,12 @@ a:active {
 .fullwork{
   flex-grow: 1;
 }
+.seeon {
+  color: var(--dark-grey);
+}
+.contactinfo {
+  color: var(--dark-grey);
+}
+.experience{
+  margin: auto;
+}
