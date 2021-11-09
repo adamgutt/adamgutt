@@ -383,3 +383,9 @@ a:active {
 .seeon {
   color: var(--dark-grey);
 }
+.contactinfo {
+  color: var(--dark-grey);
+}
+.experience{
+  margin: auto;
+}
