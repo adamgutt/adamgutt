@@ -7,6 +7,7 @@
   --mostly-yellow: #edc655;
   --light-yellow: #fcffad;
   --mostly-orange: #f76414;
+  --navcolora: #00675c;
 }
 
 /*
@@ -102,6 +103,10 @@ a:active {
 
 .navigation-list__item--active {
   text-decoration: none;
+}
+
+.navigation-list__item {
+  color: var(--navcolora);
 }
 
 .profile__portrait {
