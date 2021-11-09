@@ -114,9 +114,11 @@ a:active {
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
+  padding-top: 15px;
 }
 
 .page-footer {
+  padding-bottom: 10px;
   clear: both;
   display: flex;
   flex-direction: column;
@@ -161,6 +163,7 @@ a:active {
 .grid__item {
   display: inline-block;
   width: 33%;
+  padding-left: 15px;
 }
 
 /* end grid fallback */
@@ -284,6 +287,8 @@ a:active {
   flex-grow: 1;
 }
 .fullcontact{
+  padding-left: 15px;
+  padding-top: 15px;
   flex-grow: 1;
 }
 .fullwork{
@@ -297,4 +302,7 @@ a:active {
 }
 .experience{
   margin: auto;
+}
+.worktitle{
+  padding-left: 15px;
 }
