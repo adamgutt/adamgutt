@@ -268,3 +268,19 @@ a:active {
 .about-myself {
   list-style-type: none;
 }
+.fullpage{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.profile{
+  flex-grow: 1;
+}
+.fullcontact{
+  flex-grow: 1;
+}
+.fullwork{
+  flex-grow: 1;
+}

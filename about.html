@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -19,16 +19,17 @@
 
 
 <body>
+<div class="fullpage">  
   <header class="page-header">
     <!-- Add your logo here -->
     <img src="img/logo.svg" alt="logo" >
     <nav class="main-navigation page-header__item">
        <ul role="menubar" class="navigation-list">
           <li role="presentation">
-             <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+             <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
           </li>
           <li role="presentation">
-             <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+             <a href="about.html" role="menuitem" class="navigation-list__item navigation-list__item--active">About</a>
           </li>
           <li role="presentation">
              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
@@ -43,7 +44,7 @@
 <div class="myself">
   <h1>About</h1>
     <p>This page is about myself. This is what I enjoy doing:</p>
-    <ul role="abilities" class="about-myself">
+    <ul class="about-myself">
       <li>Front-end development</li>
       <li>Back-end development</li>
       <li>Test driven development</li>
@@ -652,7 +653,7 @@
         </g>
     </svg>
 
-  <table>
+  <table class="experience">
     <thead>
       <tr>
         <td>Skills</td>
@@ -678,6 +679,23 @@
       </tr>
     </tbody>
 </table>
+
+<!-- Footer with links to social media profiles -->
+<footer class="page-footer">
+  <p>Find me ons</p>
+  <div class="social-media">
+    <a href="https://github.com/adamgutt" target="_blank">
+      <img src="img/github1.svg" alt="Github">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="img/twitter1.svg" alt="Twitter">
+    </a>
+    <a href="https://www.linkedin.com/in/adam-guttman-52492418a/" target="_blank">
+      <img src="img/linkedin1.svg" alt="LinkedIn">
+    </a>
+  </div>
+</footer>
+</div>
 <script src="js/tota11y.min.js"></script>
 </body>
 
