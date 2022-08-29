@@ -277,8 +277,8 @@ a:active {
 }
 
 .sun {
-  -webkit-animation: 4s color-change infinite alternate linear;
-          animation: 4s color-change infinite alternate linear;
+  -webkit-animation: 1s color-change infinite alternate linear;
+          animation: 1s color-change infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move {
