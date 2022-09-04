@@ -271,7 +271,7 @@ a:active {
   max-width: 750px;
   margin: 0 auto;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 .about-myself {
