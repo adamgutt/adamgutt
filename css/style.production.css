@@ -346,7 +346,7 @@ a:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: left;
+  text-align: center;
 }
 
 .about-myself {
