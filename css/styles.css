@@ -118,7 +118,10 @@ a:active {
 }
 
 .page-footer {
-  padding-bottom: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
   clear: both;
   display: flex;
   flex-direction: column;
@@ -281,6 +284,7 @@ width: 100%;
   list-style-type: none;
 }
 .fullpage{
+  position: relative;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -309,4 +313,16 @@ width: 100%;
 }
 .worktitle{
   padding-left: 15px;
+}
+.personal-details {
+  display: block;
+  width: 100%;
+  padding-left: 2%;
+  text-align: center;
+}
+.message-box {
+  display: block;
+  width: auto;
+  padding: 2%;
+  text-align: center;
 }
