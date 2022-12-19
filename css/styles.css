@@ -127,6 +127,9 @@ a:active {
   flex-direction: column;
   text-align: center;
 }
+footer .social-media > a {
+  text-decoration: none;
+}
 
 .profile {
   max-width: 700px;
@@ -170,6 +173,7 @@ a:active {
 /* start grid fallback */
 main{
   padding: 0px 20px;
+  padding-bottom: 2.5rem;
 }
 .grid__item {
   display: inline-block;
