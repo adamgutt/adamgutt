@@ -38,7 +38,7 @@ button {
   font-family: inherit;
 
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: var(--peach);
+  background-color: black;
   color: white;
   text-decoration: none;
 
